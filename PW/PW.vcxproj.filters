@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\system">
+      <UniqueIdentifier>{7037e3df-a9c9-4c38-b11b-9098c143d3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{c80e9274-a812-4764-bba3-9c96c8fee85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\parameter">
+      <UniqueIdentifier>{d2f30cb1-4086-42d6-bbec-837f2b74c2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{87b07295-83dd-4d5d-be26-7815e5f550ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\system">
+      <UniqueIdentifier>{4a642ae1-dc2d-43f8-a11b-ccef3c834913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{b169a5e5-6dc7-413d-b92f-59c1c730897d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene">
+      <UniqueIdentifier>{c3d646b8-bed0-4795-a99f-822a0666f605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\animation">
+      <UniqueIdentifier>{defa23ac-8d25-4c6a-a279-b0078755f021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state">
+      <UniqueIdentifier>{12b2da45-ddcf-4bdc-add6-bbf77aac525e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state">
+      <UniqueIdentifier>{eaf42954-df18-4eae-beb4-319cbfd2000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\peashooter">
+      <UniqueIdentifier>{c6ed12f0-12a5-4594-82bb-03af1c599e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\peashooter">
+      <UniqueIdentifier>{fb64908d-7070-45f3-88c9-a7a628fa3f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\sunflower">
+      <UniqueIdentifier>{ba5b4ccb-153b-483e-b29b-8ac08224b3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\sunflower">
+      <UniqueIdentifier>{c7e26cd8-d226-45b9-8c59-a0f32dbb2b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\controller">
+      <UniqueIdentifier>{f8e31780-58eb-4806-8f20-c9229d64dfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\controller">
+      <UniqueIdentifier>{ef20c606-ce76-489b-ada0-893fc996a5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items">
+      <UniqueIdentifier>{0779d8a5-0c83-4b14-be41-dcd690151f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items">
+      <UniqueIdentifier>{0141b934-c56d-45e6-aa44-da5996b7480c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\system\collision">
+      <UniqueIdentifier>{57996786-59fa-4cb8-a940-3f5488c57270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\charater">
+      <UniqueIdentifier>{477bf792-c142-4395-ab86-483b456fa03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\charater\peashooter">
+      <UniqueIdentifier>{bba5fc23-2449-4f00-a806-a877c2a13e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\charater\sunflower">
+      <UniqueIdentifier>{22a7f720-2c7f-4539-8eb2-ba0f98c7437e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\charater">
+      <UniqueIdentifier>{dfa28df7-26ef-4df6-a817-b023bf55858b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\charater\peashooter">
+      <UniqueIdentifier>{24d1d67f-7d9d-465c-a680-270a2a218923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\charater\sunflower">
+      <UniqueIdentifier>{288ef22c-fa62-4fb5-9829-10651ef58d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\platform">
+      <UniqueIdentifier>{a11bf229-4285-4f59-8d38-55af5fa3e278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\platform">
+      <UniqueIdentifier>{9298fa0b-216f-4b6d-bc06-a6d6837f5bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\bullet">
+      <UniqueIdentifier>{b1636855-a063-4b6b-88da-4b47a2b40667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\bullet">
+      <UniqueIdentifier>{6d09a5b8-bae7-4b5d-aed8-71d6a32ef9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UIWidget">
+      <UniqueIdentifier>{d12bd6ef-70fb-4cb9-852a-4cd26134a43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UIWidget">
+      <UniqueIdentifier>{6a01d779-91b1-410e-bb4c-391646105c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\particle">
+      <UniqueIdentifier>{f38b4cfe-bea6-4db8-b3d5-f5d6d132cb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\particle">
+      <UniqueIdentifier>{e04c2b14-db0f-4ab9-9d2f-8b4092d47ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\particle\effect">
+      <UniqueIdentifier>{1237d77f-96a7-41b4-bf12-44ce17ceaa1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\particle\effect">
+      <UniqueIdentifier>{31a5901b-5602-4ccd-a117-c336d9c20c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\charater\gloomshroom">
+      <UniqueIdentifier>{9d57c039-0e2d-44ae-890a-697e9e0c4a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\gloomshroom">
+      <UniqueIdentifier>{0358a017-47b2-42fc-b855-d0609dbcd2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\charater\gloomshroom">
+      <UniqueIdentifier>{3e1a295d-3b69-46f9-b97f-3c92a3eb36fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\gloomshroom">
+      <UniqueIdentifier>{7f416897-6b33-4406-a557-aed26600fdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\charater\nut">
+      <UniqueIdentifier>{31ad7d8c-7f4b-4ed1-9f2b-8d5fd3ea2867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\charater\nut">
+      <UniqueIdentifier>{94b2bb95-babb-4479-b2c7-4ebb16f4f80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state\nut">
+      <UniqueIdentifier>{a3955a10-1b3c-455e-965c-6bdbc945b6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state\nut">
+      <UniqueIdentifier>{4298687c-878c-432e-9b79-59e4cab2a133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\items\buffbox">
+      <UniqueIdentifier>{7b7ddcad-7943-40db-b982-c03686e45599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\items\buffbox">
+      <UniqueIdentifier>{20ea6ec7-bc41-4dc5-928b-211099771eab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utils\helper.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\MenuScene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SelectScene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Level1Scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SceneManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ResourcesManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\AudioManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Camera.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\StateMachine.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Character.cpp">
+      <Filter>源文件\items\charater</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PeashooterStates.cpp">
+      <Filter>源文件\state\peashooter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PeashooterCharacter.cpp">
+      <Filter>源文件\items\charater\peashooter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SunflowerState.cpp">
+      <Filter>源文件\state\sunflower</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SunflowerCharacter.cpp">
+      <Filter>源文件\items\charater\sunflower</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\CharacterManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Controller.cpp">
+      <Filter>源文件\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlayerControllerManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\RenderManager.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\CollisionManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlatformSmall.cpp">
+      <Filter>源文件\items\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlatformLarge.cpp">
+      <Filter>源文件\items\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ItemObject.cpp">
+      <Filter>源文件\items</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ItemManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\BulletPool.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Bullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PeaBullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SunBullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SunExBullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\StatusBar.cpp">
+      <Filter>源文件\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Particle.cpp">
+      <Filter>源文件\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ParticleManger.cpp">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\CharacterEffect.cpp">
+      <Filter>源文件\particle\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\GloomshroomStates.cpp">
+      <Filter>源文件\state\gloomshroom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\NutStates.cpp">
+      <Filter>源文件\state\nut</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\GloomshroomCharacter.cpp">
+      <Filter>源文件\items\charater\gloomshroom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\NutCharacter.cpp">
+      <Filter>源文件\items\charater\nut</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\BubbleBullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\BubbleExBullet.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\NutExplode.cpp">
+      <Filter>源文件\items\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\BuffBox.cpp">
+      <Filter>源文件\items\buffbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Parameter\GlobeGameParameters.h">
+      <Filter>头文件\parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\helper.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\MenuScene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SelectScene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Level1Scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SceneManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ResourcesManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\AudioManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\Timer.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Vector2.h">
+      <Filter>头文件\parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Res\Animation.h">
+      <Filter>头文件\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Camera.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\StateNode.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\StateMachine.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Character.h">
+      <Filter>头文件\items\charater</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PeashooterStates.h">
+      <Filter>头文件\state\peashooter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PeashooterCharacter.h">
+      <Filter>头文件\items\charater\peashooter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SunflowerState.h">
+      <Filter>头文件\state\sunflower</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SunflowerCharacter.h">
+      <Filter>头文件\items\charater\sunflower</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CharacterManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Controller.h">
+      <Filter>头文件\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlayerControllerManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\RenderItem.h">
+      <Filter>头文件\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\RenderManager.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Res\atlas.h">
+      <Filter>头文件\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CollisionManger.h">
+      <Filter>头文件\system\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CollisionBox.h">
+      <Filter>头文件\system\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Parameter\CollisionLayer.h">
+      <Filter>头文件\system\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ItemObject.h">
+      <Filter>头文件\items</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlatformSmall.h">
+      <Filter>头文件\items\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlatformLarge.h">
+      <Filter>头文件\items\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ItemManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\BulletPool.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Bullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PeaBullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SunBullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SunExBullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\StatusBar.h">
+      <Filter>头文件\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Particle.h">
+      <Filter>头文件\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ParticleManger.h">
+      <Filter>头文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CharacterEffect.h">
+      <Filter>头文件\particle\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\GloomshroomStates.h">
+      <Filter>头文件\state\gloomshroom</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\NutStates.h">
+      <Filter>头文件\state\nut</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\GloomshroomCharacter.h">
+      <Filter>头文件\items\charater\gloomshroom</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\NutCharacter.h">
+      <Filter>头文件\items\charater\nut</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\BubbleBullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\BubbleExBullet.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\NutExplode.h">
+      <Filter>头文件\items\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\BuffBox.h">
+      <Filter>头文件\items\buffbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

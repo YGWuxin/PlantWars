@@ -1,0 +1,92 @@
+id,path,type,needFlip,FrameNum,Notes
+img_menu_background,res/scene/menu/menu_background.png,image,0,0,主菜单背景图片
+img_vs,res/scene/selector/VS.png,image,0,0,VS 文字图样
+img_1P,res/iocn/1P.png,image,0,0,1P 文本图片
+img_2P,res/iocn/2P.png,image,0,0,2P 文本图片
+img_1P_desc,res/iocn/1P_desc.png,image,0,0,1P 键位描述图片
+img_2P_desc,res/iocn/2P_desc.png,image,0,0,2P 键位描述图片
+img_gravestone_left,res/scene/selector/gravestone.png,image,1,0,墓碑向左的图片
+img_gravestone_right,res/scene/selector/gravestone.png,image,0,0,墓碑向右 的图片
+img_selector_tip,res/scene/selector/selector_tip.png,image,0,0,选角界面提示信息文本图片
+img_selector_background,res/scene/selector/selector_background.png,image,0,0,选角界面背景图片
+img_1P_selector_btn_idle_left,res/iocn/1P_selector_btn_idle.png,image,1,0,1P向左选择按钮默认状态图片
+img_1P_selector_btn_idle_right,res/iocn/1P_selector_btn_idle.png,image,0,0,1P向右选择按钮默认状态图片
+img_1P_selector_btn_down_left,res/iocn/1P_selector_btn_down.png,image,1,0,1P向左选择按钮按下状态图片
+img_1P_selector_btn_down_right,res/iocn/1P_selector_btn_down.png,image,0,0,1P向右选择按钮按下状态图片
+img_2P_selector_btn_idle_left,res/iocn/2P_selector_btn_idle.png,image,1,0,2P向左选择按钮默认状态图片
+img_2P_selector_btn_idle_right,res/iocn/2P_selector_btn_idle.png,image,0,0,2P向右选择按钮默认状态图片
+img_2P_selector_btn_down_left,res/iocn/2P_selector_btn_down.png,image,1,0,2P向左选择按钮按下状态图片
+img_2P_selector_btn_down_right,res/iocn/2P_selector_btn_down.png,image,0,0,2P向右选择按钮按下状态图片
+img_peashooter_seletor_background_left,res/scene/selector/peashooter_selector_background.png,image,1,0,选角界面向左的婉逗射手的背景图片
+img_peashooter_seletor_background_right,res/scene/selector/peashooter_selector_background.png,image,0,0,选角界面向右的婉逗射手的背景图片
+img_sunflower_seletor_background_left,res/scene/selector/sunflower_selector_background.png,image,1,0,选角界面向左的龙日葵的背景图片
+img_sunflower_seletor_background_right,res/scene/selector/sunflower_selector_background.png,image,0,0,选角界面向右的龙日葵的背景图片
+img_sky,res/scene/level1/sky.png,image,0,0,（关卡1）天空图片
+img_hills,res/scene/level1/hills.png,image,0,0,（关卡1）山脉图片
+img_platform_large,res/scene/level1/platform_large.png,image,0,0,（关卡1）大型平台图片
+img_platform_small,res/scene/level1/platform_small.png,image,0,0,（关卡1）小型平台图片
+img_1P_cursor,res/iocn/1P_cursor.png,image,0,0,P1 指示光标
+img_2P_cursor,res/iocn/2P_cursor.png,image,0,0,P2 指示光标
+atlas_peashooter_idle_left,res/character/peashooter/peashooter_idle_%d.png,atlas,1,9,婉逗射手朝向左边的默认动画图集
+atlas_peashooter_idle_right,res/character/peashooter/peashooter_idle_%d.png,atlas,0,9,婉逗射手朝向右边的默认动画图集
+atlas_peashooter_run_left,res/character/peashooter/peashooter_run_%d.png,atlas,1,5,婉逗射手朝向左边的奔跑动画图集
+atlas_peashooter_run_right,res/character/peashooter/peashooter_run_%d.png,atlas,0,5,婉逗射手朝向右边的奔跑动画图集
+atlas_peashooter_attack_ex_left,res/character/peashooter/peashooter_attack_ex_%d.png,atlas,1,3,婉逗射手朝向左边的特殊攻击动画图集
+atlas_peashooter_attack_ex_right,res/character/peashooter/peashooter_attack_ex_%d.png,atlas,0,3,婉逗射手朝向右边的特殊攻击动画图集
+atlas_peashooter_die_left,res/character/peashooter/peashooter_die_%d.png,atlas,1,4,婉逗射手朝向左边的死亡动画图集
+atlas_peashooter_die_right,res/character/peashooter/peashooter_die_%d.png,atlas,0,4,婉逗射手朝向右边的死亡动画图集
+atlas_sunflower_idle_left,res/character/sunflower/sunflower_idle_%d.png,atlas,1,8,龙日葵朝向左边的默认动画图集
+atlas_sunflower_idle_right,res/character/sunflower/sunflower_idle_%d.png,atlas,0,8,龙日葵朝向右边的默认动画图集
+atlas_sunflower_run_left,res/character/sunflower/sunflower_run_%d.png,atlas,1,5,龙日葵朝向左边的奔跑动画图集
+atlas_sunflower_run_right,res/character/sunflower/sunflower_run_%d.png,atlas,0,5,龙日葵朝向右边的奔跑动画图集
+atlas_sunflower_attack_ex_left,res/character/sunflower/sunflower_attack_ex_%d.png,atlas,1,9,龙日葵朝向左边的特殊攻击动画图集
+atlas_sunflower_attack_ex_right,res/character/sunflower/sunflower_attack_ex_%d.png,atlas,0,9,龙日葵朝向右边的特殊攻击动画图集
+atlas_sunflower_die_left,res/character/sunflower/sunflower_die_%d.png,atlas,1,2,龙日葵朝向左边的死亡动画图集
+atlas_sunflower_die_right,res/character/sunflower/sunflower_die_%d.png,atlas,0,2,龙日葵朝向右边的死亡动画图集
+img_pea,res/character/peashooter/pea.png,image,0,0,豌豆子弹图片
+atlas_pea_breakatlas_pea_break,res/character/peashooter/pea_break_%d.png,atlas,0,3,豌豆子弹破碎动画图集
+atlas_sun,res/character/sunflower/sun_%d.png,atlas,0,5,日光炸弹动画图集
+atlas_sun_explode,res/character/sunflower/sun_explode_%d.png,atlas,0,5,日光炸弹爆炸动画图集
+atlas_sun_ex,res/character/sunflower/sun_ex_%d.png,atlas,0,5,特殊日光炸弹动画图集
+atlas_sun_ex_explode,res/character/sunflower/sun_ex_explode_%d.png,atlas,0,5,特殊日光炸弹爆炸动画图集
+atlas_sun_text,res/character/sunflower/sun_text_%d.png,atlas,0,6,"""日""文本动画图集"
+atlas_effect_run,res/effect/character/run_effect_%d.png,atlas,0,4,奔跑特效动画图集
+atlas_effect_jump,res/effect/character/jump_effect_%d.png,atlas,0,5,跳跃特效动画图集
+atlas_effect_land,res/effect/character/land_effect_%d.png,atlas,0,2,落地特效动画图集
+img_1P_winner,res/iocn/1P_winner.png,image,0,0,1P 获胜文本图片
+img_2P_winner,res/iocn/2P_winner.png,image,0,0,2P 获胜文本图片
+img_winner_bar,res/iocn/winnner_bar.png,image,0,0,获胜玩家文本背景图片
+img_avatar_peashooter,res/iocn/avatar_peashooter.png,image,0,0,婉逗射手头像图片
+img_avatar_sunflower,res/iocn/avatar_sunflower.png,image,0,0,龙日葵头像图片
+atlas_gloomshroom_idle_left,res/character/gloomshroom/gloomshroom_idle_%d.png,atlas,1,4,大喷菇朝向左边的默认动画图集
+atlas_gloomshroom_idle_right,res/character/gloomshroom/gloomshroom_idle_%d.png,atlas,0,4,大喷菇朝向右边的默认动画图集
+atlas_gloomshroom_run_left,res/character/gloomshroom/gloomshroom_run_%d.png,atlas,1,3,大喷菇朝向左边的奔跑动画图集
+atlas_gloomshroom_run_right,res/character/gloomshroom/gloomshroom_run_%d.png,atlas,0,3,大喷菇朝向右边的奔跑动画图集
+atlas_gloomshroom_attack_ex_left,res/character/gloomshroom/gloomshroom_attack_ex_%d.png,atlas,1,7,大喷菇朝向左边的特殊攻击动画图集
+atlas_gloomshroom_attack_ex_right,res/character/gloomshroom/gloomshroom_attack_ex_%d.png,atlas,0,7,大喷菇朝向右边的特殊攻击动画图集
+atlas_gloomshroom_die_left,res/character/gloomshroom/gloomshroom_die_%d.png,atlas,1,3,大喷菇朝向左边的死亡动画图集
+atlas_gloomshroom_die_right,res/character/gloomshroom/gloomshroom_die_%d.png,atlas,0,3,大喷菇朝向右边的死亡动画图集
+atlas_bubbles,res/character/gloomshroom/bubbles_%d.png,atlas,0,7,大喷菇普通子弹
+atlas_bubbles_ex,res/character/gloomshroom/bubbles_ex_%d.png,atlas,0,7,大喷菇特殊子弹
+img_avatar_gloomshroom,res/iocn/avatar_gloomshroom.png,image,0,0,大喷菇头像图片
+atlas_nut_idle_left,res/character/nut/nut_idle_%d.png,atlas,1,3,坚哥向左边的默认动画图集
+atlas_nut_idle_right,res/character/nut/nut_idle_%d.png,atlas,0,3,坚哥向右边的默认动画图集
+atlas_nut_run_left,res/character/nut/nut_run_%d.png,atlas,1,3,坚哥向左边的奔跑动画图集
+atlas_nut_run_right,res/character/nut/nut_run_%d.png,atlas,0,3,坚哥向右边的奔跑动画图集
+atlas_nut_explode,res/character/nut/nut_explode_%d.png,atlas,0,5,坚哥爆炸图集
+atlas_nut_attack_ex_left,res/character/nut/nut_attack_ex_%d.png,atlas,1,5,坚哥向左边的特殊攻击动画图集
+atlas_nut_attack_ex_right,res/character/nut/nut_attack_ex_%d.png,atlas,0,5,坚哥向右边的特殊攻击动画图集
+atlas_nut_die_left,res/character/nut/nut_die_%d.png,atlas,1,3,坚哥向左边的死亡动画图集
+atlas_nut_die_right,res/character/nut/nut_die_%d.png,atlas,0,3,坚哥向右边的死亡动画图集
+img_avatar_nut,res/iocn/avatar_nut.png,image,0,0,坚哥头像图片
+img_gloomshroom_seletor_background_left,res/scene/selector/gloomshroom_selector_background.png,image,1,0,选角界面向左的大喷菇的背景图片
+img_gloomshroom_seletor_background_right,res/scene/selector/gloomshroom_selector_background.png,image,0,0,选角界面向右的大喷菇的背景图片
+img_nut_seletor_background_left,res/scene/selector/nut_selector_background.png,image,1,0,选角界面向左的坚哥的背景图片
+img_nut_seletor_background_right,res/scene/selector/nut_selector_background.png,image,0,0,选角界面向右的坚哥的背景图片
+atlas_buff_box_blue,res/iocn/buff_box_blue_%d.png,atlas,0,4,蓝色buff箱子
+atlas_buff_box_pink,res/iocn/buff_box_pink_%d.png,atlas,0,4,粉红色buff箱子
+atlas_buff_box_yellow,res/iocn/buff_box_yellow_%d.png,atlas,0,4,黄色buff箱子
+img_buff_icon_hurry,res/iocn/buff_icon_hurry.png,image,0,0,加速图标
+img_buff_icon_invisible,res/iocn/buff_icon_invisible.png,image,0,0,隐身图标
+img_buff_icon_recover,res/iocn/buff_icon_recover.png,image,0,0,回复图标
+img_buff_icon_silence,res/iocn/buff_icon_silence.png,image,0,0,禁用技能图标
